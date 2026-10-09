@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green-900: #1f4d3f;
+  --green-800: #244f40;
+  --green-700: #1d5f4a;
+  --green-100: #e7f3ea;
+  --gold-100: #f0e2b8;
+  --gold-300: #d9b66c;
+  --cream: #f5efe4;
+  --black: #111827;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f0ea;
+  color: var(--black);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--green-900);
+}
+
+.card-shadow {
+  box-shadow: 0 20px 45px rgba(31, 77, 63, 0.08);
+}
